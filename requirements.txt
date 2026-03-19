@@ -1,0 +1,12 @@
+# ── Core dashboard ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+pandas>=2.0.0
+plotly>=5.20.0
+
+# ── ML (live prediction page — no Spark needed at runtime) ────────────────────
+scikit-learn>=1.4.0
+joblib>=1.3.0
+numpy>=1.26.0
+
+# ── Pipeline only (run ipl_pipeline.py locally, not needed on Streamlit Cloud) ─
+pyspark>=3.5.0
